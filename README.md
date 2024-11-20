@@ -4,5 +4,5 @@ Digunakan untuk mengerjakan tugas besar algoritma dan program komputer
 ## Kelompok : 
 ## Anggota :
 - I0324110 Agung Rizkianto (
-- I0324121 Novan Gading Krisniawidhi
+- I0324121 Novan Gading Krisniawidhi (Gadingggg)
 - I0324134 Raditya Hilmy Hariyanto (RadityaHilmy)
