@@ -22,7 +22,6 @@ Sistem mencatat detail transaksi paylater, seperti:
 - Tanggal jatuh tempo setiap cicilan.
 - Durasi cicilan (bulanan/mingguan).
 - Status pembayaran (lunas/belum lunas).
-- Data ini diambil dari integrasi dengan platform e-commerce atau diinput oleh pengguna.
 2) Pengaturan Jadwal Pengingat
 Sistem secara otomatis menjadwalkan pengingat berdasarkan tanggal jatuh tempo.
 Pengguna dapat mengatur preferensi notifikasi, seperti:
@@ -60,7 +59,7 @@ Verifikasi email atau nomor telepon dilakukan untuk memastikan data valid.
 4) Menerima dan Menindaklanjuti Pengingat
   - Pengguna akan menerima pengingat sesuai jadwal yang telah ditentukan.
     Notifikasi akan berisi informasi berikut:
-    1. Nama barang/jasa.
+    1. Nama .
     2. Jumlah yang harus dibayar.
     3. Tanggal jatuh tempo.
     4. Instruksi pembayaran (misalnya, tautan ke metode pembayaran).
