@@ -1,7 +1,7 @@
 # Tubes_Prokom
 Digunakan untuk mengerjakan tugas besar algoritma dan program komputer
 ## Kelas : C
-## Kelompok : 
+## Kelompok : 1
 ## Anggota :
 - I0324110 Agung Rizkianto (AGUNGRIZKIANTO)
 - I0324121 Novan Gading Krisniawidhi (Gadingggg)
