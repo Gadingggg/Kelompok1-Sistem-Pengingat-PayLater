@@ -1,4 +1,4 @@
-# Tubes_Prokom
+# KELOMPOK 1 KELAS C
 Digunakan untuk mengerjakan tugas besar algoritma dan program komputer
 ## Kelas : C
 ## Kelompok : 1
