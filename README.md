@@ -9,10 +9,7 @@
 
 ## Tema : Sistem Pengingat PayLater
 ## Deskripsi :
-Sistem pengingat PayLater adalah sebuah aplikasi atau layanan digital yang dirancang untuk membantu pengguna mengelola kewajiban pembayaran cicilan paylater (bayar nanti). Sistem ini berfokus pada pengelolaan jadwal pembayaran, pengiriman notifikasi, serta pengelolaan informasi transaksi terkait paylater. Sistem ini memiliki tujuan untuk memberikan pemberitahuan kepada pengguna mengenai jadwal pembayaran cicilan paylater sebelum jatuh tempo. menghindari keterlambatan pembayaran yang dapat menyebabkan denda atau penalti. meningkatkan kesadaran pengguna terhadap status kewajiban finansialnya. Sistem ini memiliki beberapa manfaat, yaitu :
-- Membantu pengguna menghindari denda keterlambatan.
-- Meningkatkan pengelolaan keuangan pribadi.
-- Memberikan pengalaman pengguna yang nyaman dan terorganisir dalam mengelola cicilan.
+Sistem pengingat PayLater adalah sebuah aplikasi atau layanan digital yang dirancang untuk membantu pengguna mengelola kewajiban pembayaran cicilan paylater (bayar nanti). Sistem ini berfokus pada pengelolaan jadwal pembayaran, pengiriman notifikasi, serta pengelolaan informasi transaksi terkait paylater. Sistem ini memiliki tujuan untuk memberikan pemberitahuan kepada pengguna mengenai jadwal pembayaran cicilan paylater sebelum jatuh tempo. menghindari keterlambatan pembayaran yang dapat menyebabkan denda atau penalti. meningkatkan kesadaran pengguna terhadap status kewajiban finansialnya.
 
 ## Alur Kerja Sistem :
 1. Aplikasi dimulai, dengan gambar latar belakang ditampilkan.
