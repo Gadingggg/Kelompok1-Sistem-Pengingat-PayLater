@@ -30,7 +30,9 @@ Sistem pengingat PayLater adalah sebuah aplikasi atau layanan digital yang diran
 7. Antarmuka Grafis – Aplikasi menggunakan antarmuka berbasis Tkinter dengan tombol dan menu.
 8. Metode Pembayaran – Beragam opsi pembayaran seperti kartu kredit dan e-wallet.
 9. Fitur Keluar – Tombol untuk keluar dari aplikasi kapan saja.
-    
+
+![_Flowchart Pengingat PayLater  drawio (3)](https://github.com/user-attachments/assets/5c07c9f7-9d40-46f5-b278-4078ce1a50f3)
+
 ## Cara Menggunakan :
 1) Registrasi 
    - Registrasi: ada jendela utama, klik tombol Sign Up.
