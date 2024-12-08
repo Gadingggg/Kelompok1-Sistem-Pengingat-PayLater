@@ -15,65 +15,61 @@ Sistem pengingat PayLater adalah sebuah aplikasi atau layanan digital yang diran
 - Memberikan pengalaman pengguna yang nyaman dan terorganisir dalam mengelola cicilan.
 
 ## Alur Kerja Sistem :
-1) Pencatatan Transaksi PayLater
-Sistem mencatat detail transaksi paylater, seperti:
-- Nama barang atau layanan.
-- Nominal total cicilan.
-- Tanggal jatuh tempo setiap cicilan.
-- Durasi cicilan (bulanan/mingguan).
-- Status pembayaran (lunas/belum lunas).
-2) Pengaturan Jadwal Pengingat
-Sistem secara otomatis menjadwalkan pengingat berdasarkan tanggal jatuh tempo.
-Pengguna dapat mengatur preferensi notifikasi, seperti:
-- Frekuensi pengingat (misalnya: 7 hari, 3 hari, dan 1 hari sebelum jatuh tempo).
-- Waktu pengiriman notifikasi (pagi, siang, atau malam).
-3) Pengiriman Notifikasi
-Pengingat dikirimkan melalui email dengan informasi berikut:
-- Rincian cicilan (nominal, tanggal jatuh tempo, sisa cicilan).
-- Instruksi pembayaran.
-- Peringatan terkait denda jika melewati jatuh tempo.
-Selain email, sistem dapat menyediakan notifikasi tambahan melalui aplikasi mobile, SMS, atau push notification (jika terintegrasi).
-4) Pelaporan Status Pembayaran
-Setelah pembayaran dilakukan, pengguna dapat mengkonfirmasi melalui sistem (manual atau otomatis jika terintegrasi dengan metode pembayaran). Sistem memperbarui status transaksi menjadi lunas dan menghentikan pengingat untuk cicilan tersebut.
+1. Aplikasi dimulai, dengan gambar latar belakang ditampilkan.
+2. Pengguna memilih untuk Sign Up atau Log In.
+   Sign Up: Pengguna mengisi data diri, dan jika valid, data tersebut disimpan dan pengguna berhasil mendaftar.
+   Log In: Pengguna memasukkan email dan kata sandi. Jika cocok, pengguna masuk ke dashboard.
+3. Dashboard menampilkan produk yang diambil dari file CSV. Pengguna dapat memilih produk dan melanjutkan ke halaman pembayaran.
+4. Pembayaran: Pengguna memilih metode pembayaran dan durasi cicilan.
+5. Pengingat Pembayaran: Secara otomatis dikirimkan melalui email kepada pengguna setiap minggu.
 
 ## Fitur yang tersedia : 
-- Custom Reminder: Pengguna dapat mengatur jadwal pengingat sesuai kebutuhan.
-- Dashboard Pengguna: Menyediakan antarmuka untuk memantau semua transaksi paylater, status pembayaran, dan jadwal cicilan.
-- Riwayat Pembayaran: Menampilkan histori pembayaran untuk referensi di masa mendatang
-
+1. Pendaftaran Pengguna (Sign Up) – Pengguna dapat mendaftar dengan email, nama, dan kata sandi.
+2. Login Pengguna – Pengguna dapat login menggunakan email dan kata sandi yang terdaftar.
+3. Dashboard Produk – Menampilkan daftar produk dengan harga dan gambar.
+4. Pembelian Produk – Pengguna dapat memilih produk dan metode pembayaran (termasuk cicilan).
+5. Pengingat Cicilan – Pengguna menerima pengingat pembayaran cicilan melalui email.
+6. Keamanan Data – Kata sandi disimpan dalam bentuk hash untuk keamanan.
+7. Antarmuka Grafis – Aplikasi menggunakan antarmuka berbasis Tkinter dengan tombol dan menu.
+8. Metode Pembayaran – Beragam opsi pembayaran seperti kartu kredit dan e-wallet.
+9. Fitur Keluar – Tombol untuk keluar dari aplikasi kapan saja.
+    
 ## Cara Menggunakan :
-1) Registrasi dan Login
-   - Registrasi: Pengguna harus membuat akun dengan memasukkan informasi dasar seperti nama, alamat email, dan nomor telepon.
-Verifikasi email atau nomor telepon dilakukan untuk memastikan data valid.
-   - Login: Setelah registrasi, pengguna bisa masuk ke sistem menggunakan email dan kata sandi yang telah dibuat.
-2) Integrasi atau Input Data Transaksi
-  - Opsi Integrasi Otomatis: Jika sistem terhubung dengan platform e-commerce atau penyedia layanan paylater, transaksi 
-    pengguna akan otomatis terhubung.
-  - Pengguna hanya perlu menyinkronkan akun mereka dengan memberikan izin akses.
-3) Pengaturan Pengingat
-  - Setelah data transaksi tercatat, pengguna bisa mengatur preferensi pengingat: Waktu pengiriman notifikasi (pagi, siang, malam).
-  - Frekuensi pengingat:
-    1. Pilihan standar: 7 hari, 3 hari, dan 1 hari sebelum jatuh tempo.
-    2. Pengguna juga dapat menyesuaikan intervalnya.
-  - Saluran notifikasi: Email (default).
-4) Menerima dan Menindaklanjuti Pengingat
-  - Pengguna akan menerima pengingat sesuai jadwal yang telah ditentukan.
-    Notifikasi akan berisi informasi berikut:
-    1. Nama .
-    2. Jumlah yang harus dibayar.
-    3. Tanggal jatuh tempo.
-    4. Instruksi pembayaran (misalnya, tautan ke metode pembayaran).
-  - Pengguna dapat langsung menindaklanjuti dengan melakukan pembayaran sesuai instruksi.
-5) Konfirmasi Pembayaran
-  - Setelah melakukan pembayaran, sistem akan:
-  Mengonfirmasi otomatis: Jika terintegrasi dengan metode pembayaran, status cicilan akan diperbarui otomatis setelah pembayaran berhasil.
-6) Memantau Status Cicilan
-   Pengguna dapat memantau:
-  - Status pembayaran (lunas atau belum lunas).
-  - Riwayat transaksi dan pembayaran.
-  - Jadwal cicilan berikutnya.
-7) Menambahkan atau Menghapus Transaksi
-  - Pengguna dapat menambahkan transaksi baru kapan saja dengan metode yang sama 
-  - Jika transaksi selesai atau dibatalkan, pengguna bisa menghapusnya dari daftar untuk menghindari pengingat yang tidak relevan.
+1) Registrasi 
+   - Registrasi: ada jendela utama, klik tombol Sign Up.
+   - Jendela baru akan terbuka untuk mengisi form pendaftaran dengan informasi berikut:
+     1. Email: Masukkan email yang valid.
+     2. Nama: Masukkan nama lengkap.
+     3. Kata Sandi: Masukkan kata sandi yang diinginkan.
+     4. Konfirmasi Kata Sandi: Masukkan kata sandi yang sama untuk konfirmasi.
+     5. Klik tombol Sign Up setelah semua form diisi.
+     6. Jika format email tidak valid, aplikasi akan memberi pesan kesalahan.
+     7. Jika kata sandi tidak cocok, aplikasi akan memberi pesan kesalahan.
+     8. Jika email sudah terdaftar, aplikasi juga akan memberi pesan kesalahan.
+     9. Jika semua validasi berhasil, akun akan dibuat dan aplikasi akan memberi notifikasi Akun berhasil dibuat.
+2) Login Pengguna
+   - Pada jendela utama, klik tombol Log In.
+   - Jendela login baru akan muncul dengan dua kolom input:
+      1. Email: Masukkan email yang sudah terdaftar.
+      2. Kata Sandi: Masukkan kata sandi yang terdaftar.
+      3. Klik tombol Log In setelah mengisi form login.
+      4. Jika email atau kata sandi salah, aplikasi akan memberi pesan kesalahan.
+      5. Jika login berhasil, aplikasi akan menampilkan jendela dashboard yang berisi daftar produ
+3) Melihat Produk di Dashboard
+  - Setelah login, jendela Dashboard akan terbuka.
+  - Di sini, Anda akan melihat daftar produk Samsung yang tersedia.
+  - Setiap produk akan ditampilkan dengan gambar (jika ada) dan harga.
+  - Anda dapat memilih produk dengan mengklik tombol di bawah nama produk.
+4) Pembelian Produk
+  - Setelah memilih produk, jendela baru akan terbuka untuk proses pembayaran.
+  - Di sini Anda harus mengisi informasi berikut:
+    1. Durasi Cicilan: Tentukan durasi pembayaran cicilan (jika membeli dengan cicilan).
+    2. Metode Pembayaran: Pilih salah satu metode pembayaran yang tersedia (misalnya BCA, GoPay, BRI, dll.).
+    3. Klik tombol Lanjutkan untuk melanjutkan proses pembelian atau keluar menggunakan tombol Keluar.
+5) Menerima Pengingat Pembayaran Cicilan
+ - Sistem ini secara otomatis mengirimkan email kepada pengguna yang memiliki cicilan yang harus dibayar.
+6) Menutup Aplikasi
+  - Setiap jendela aplikasi memiliki tombol Keluar di bagian bawah untuk menutup jendela tersebut dan keluar dari aplikasi.
+
 
 
