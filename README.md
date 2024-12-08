@@ -19,6 +19,14 @@ Sistem pengingat PayLater adalah sebuah aplikasi atau layanan digital yang diran
 3. Dashboard menampilkan produk yang diambil dari file CSV. Pengguna dapat memilih produk dan melanjutkan ke halaman pembayaran.
 4. Pembayaran: Pengguna memilih metode pembayaran dan durasi cicilan.
 5. Pengingat Pembayaran: Secara otomatis dikirimkan melalui email kepada pengguna setiap minggu.
+
+## Library :
+1. Tkinter
+2. Schedule
+3. Pandas
+4. Cv2
+5. Time
+6. Pillow
    
 ![Untitled Diagram drawio](https://github.com/user-attachments/assets/98c711ae-a3fe-4ec7-b107-17bd810c87c3)
 
